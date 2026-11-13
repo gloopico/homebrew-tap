@@ -31,18 +31,18 @@
 | | |
 |---|---|
 | macOS (Homebrew) | `brew install --cask gloopico/tap/gloopico` |
-| Windows (WinGet) | `winget install Gloopico.Gloopico` |
+| Windows (WinGet) | `winget install gloopico` |
 | Windows (Scoop) | `scoop bucket add gloopico https://github.com/gloopico/homebrew-tap` then `scoop install gloopico/gloopico` |
 | Installer | [Releases](https://github.com/gloopico/homebrew-tap/releases) |
 
-> The first release is on its way. The commands above start working once it's published.
+> WinGet is in review and Scoop is coming soon. Until then, grab the installer from [Releases](https://github.com/gloopico/homebrew-tap/releases).
 
 Windows 10 · 11 (64-bit), macOS 12 or later (Apple silicon & Intel). Free.
 
 On first launch the settings window opens on **Integrations**: press **Connect** next to Claude Code / Codex and you're done.
 Sessions that are already running join after a restart (for Claude, opening `/hooks` once also works).
 
-The app updates itself (Velopack on Windows, Sparkle on macOS). Package-manager upgrades work too.
+The app updates itself on both Windows and macOS. Package-manager upgrades work too.
 
 ## What the slimes tell you
 
@@ -80,9 +80,9 @@ It shows what's going on beside the session too:
 <p><img src="assets/subagents.png" width="240" alt="A slime holding a guide flag, with three little subagent slimes (editing, planning, testing) behind it"></p>
 
 **One click to the session.** Click a slime (or its card) to jump to that session's window, and straight to its terminal tab in
-VS Code, Cursor and Windsurf, JetBrains IDEs, Terminal and iTerm2 on macOS, and Orca, or to its thread in T3 Code.
+VS Code, Cursor and Windsurf, JetBrains IDEs, Terminal, iTerm2 and Ghostty on macOS, and Orca, or to its thread in T3 Code.
 Editors need a tiny extension / plugin, one click in Settings → Integrations. Other terminals (Windows Terminal, Warp, …) go to the window.
-<sub>Orca and T3 Code are verified on Windows so far.</sub>
+<sub>T3 Code is verified on Windows so far.</sub>
 
 **Every session, at a glance.** Not into wandering slimes? Use the card window: one card per session with its model, state and
 time, subagents, and your Claude / Codex 5-hour and weekly usage at the bottom. Or shrink it into a see-through widget that stays on top.
