@@ -1,6 +1,6 @@
 cask "gloopico" do
-  version "1.0.1"
-  sha256 "652f562463c7588bec2c369f980b2040adf3b490c22d212420e483aaa8a0af30"
+  version "1.0.2"
+  sha256 "4388c4165100b3505eab4a8bae7f2154f847815e4419654306c729c00d67284b"
 
   url "https://github.com/gloopico/homebrew-tap/releases/download/v#{version}/Gloopico-mac.zip"
   name "Gloopico"
