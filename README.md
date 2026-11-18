@@ -77,7 +77,7 @@ The app updates itself on both Windows and macOS. Package-manager upgrades work 
 <td align="center" valign="top"><img src="assets/done.png" width="150" alt=""><br><b>Done</b><br><sub>A ✓ and a happy wiggle, awake until you click it or look at that session</sub></td>
 <td align="center" valign="top"><img src="assets/paused.png" width="150" alt=""><br><b>Paused</b><br><sub>You pressed Esc: it strolls with ⏸ until you click it or send a prompt</sub></td>
 <td align="center" valign="top"><img src="assets/compacting.png" width="150" alt=""><br><b>Compacting</b><br><sub>Squishes and puffs up with purple arrows while the chat is compacted</sub></td>
-<td align="center" valign="top"><img src="assets/sleeping.png" width="150" alt=""><br><b>Asleep</b><br><sub>Left alone for a while (15 min by default), it melts into a nap</sub></td>
+<td align="center" valign="top"><img src="assets/sleeping.png" width="150" alt=""><br><b>Asleep</b><br><sub>Left alone for a while (15 min by default), its eyes slowly close and it slumps into a nap</sub></td>
 </tr>
 <tr>
 <td align="center" valign="top"><img src="assets/limit.png" width="150" alt=""><br><b>Usage limit</b><br><sub>Slumps with an empty battery. The card says when the limit resets</sub></td>
@@ -144,7 +144,7 @@ And it reacts to what happens, most of the time with a little sound of its own (
 <td align="center" valign="top"><img src="assets/commit.png" width="130" alt=""><br><sub>git commit ✨</sub></td>
 <td align="center" valign="top"><img src="assets/push.png" width="130" alt=""><br><sub>git push: a rocket takes off 🚀</sub></td>
 <td align="center" valign="top"><img src="assets/alarm-wake.png" width="130" alt=""><br><sub>A scheduled wake-up fires ⏰</sub></td>
-<td align="center" valign="top"><img src="assets/love.png" width="130" alt=""><br><sub>Petted 💗</sub></td>
+<td align="center" valign="top"><img src="assets/love.png" width="130" alt=""><br><sub>Petted 💗: it melts into a happy puddle</sub></td>
 <td align="center" valign="top"><img src="assets/leaving.png" width="130" alt=""><br><sub>Session ended: off home 🏠</sub></td>
 </tr>
 </table>
@@ -190,6 +190,7 @@ the terminal of your choice and **Copy path** for its folder.
 
 **Make it yours.** Each session gets its own color and accessory, and keeps them. Right-click → Customize to change the name tag
 (text, size, colors), body color, accessory and size. Achievements (clicks, pets, finished tasks and more) unlock new accessories one by one.
+Prefer a livelier look? Settings → Look → Slime type switches every slime between Floppy (the default) and Perky.
 
 <table>
 <tr>
@@ -215,7 +216,7 @@ something to tell you, then pop back out in the same spot (off by default; its c
 only while sessions work (or wait on background commands and subagents), or always. The button next to it turns the screen off
 right away while the work carries on.
 
-**Little things.** Drag one to pick it up, rub one to pet it, click one to make it boing. Light and dark themes, launch at login,
+**Little things.** Drag one to pick it up (puzzled at first, then it just dangles), rub one to pet it, click one to make it boing. Light and dark themes, launch at login,
 and English, 한국어, 日本語, 简体中文, Español, Deutsch, Français and Português.
 
 ## Privacy
